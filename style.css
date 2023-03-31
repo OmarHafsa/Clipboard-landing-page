@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+:root{
+    /* fonts */
+--font-family: 'Bai Jamjuree' , sans-serif;
+--font-size:18px;
+--font-weight-normal:400;
+--font-weight-bold:600;
+/*colors*/
+--Strong-Cyan: hsl(171, 66%, 44%);
+--Light-Blue: hsl(233, 100%, 69%);
+--Dark-Grayish-Blue: hsl(210, 10%, 33%);
+--Grayish-Blue: hsl(201, 11%, 66%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+  
+   
+}
+body{
+    font-family: var(--font-family);
+    background-color: rgb(247, 246, 245);  
+    background-size: 100%;
+    box-sizing: border-box;
+   
+}
+
+.back{
+    
+   position: relative;
+   width: 100%;
+   max-width: 400px;
+
+}
+ img{
+    width: 1440px;
+    height: 400px;
+}
+h2{
+  font-size: 30px;
+  margin-top: -200px;
+  text-align: center;
+  color: var(--Dark-Grayish-Blue);
+  margin-bottom: 13px;
+  width: bold;
+}
+.iimm{
+ font-size: xx-small;
+    background-color: transparent;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 80px;
+    width: 80px;
+   
+    
+}
+p{
+   margin-left: 450px;
+ 
+    font-size: 16px;
+    color: var(--Grayish-Blue);
+   
+    width: 450px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.ios{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: large;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--Strong-Cyan);
+    color: white;
+    margin-left: 520px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.ios:hover{
+   
+    opacity: 0.7;
+}
+.Mac{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: large;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(166, 69, 211);
+    color: white;
+    margin-left: 9px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.Mac:hover{
+    opacity: 0.7;
+}
+.h22{
+    font-size: 28px;
+    margin-top: 60px;
+    text-align: center;
+    color: var(--Dark-Grayish-Blue); 
+    width: bold;
+    margin-left: -20px;
+    margin-bottom: 20px;
+}
+.p1{
+    width: 600px;
+   margin-left: 380px;
+   font-size:15px;
+   margin-bottom: 70px;
+}
+.iim{
+    height: 600px;
+    width: 720px;
+    margin-left: -40px;
+    float: left;
+}
+.h23{
+    margin-top: 150px;
+   font-size: 24px;
+    margin-right: 300px;
+    width: bold;
+}
+.p12{
+width: 360px;
+text-align: left;
+margin-left: 790px;
+font-size: 15px;
+
+}
+.h24{
+margin-top: 60px;
+    font-size: 24px;
+     margin-right: 310px;
+     width: bold;
+     
+}
+.h25{
+    margin-top: 60px;
+    font-size: 24px;
+     margin-right: 260px;
+     width: bold; 
+     margin-left: 20px;
+}
+.h26{
+    font-size: 28px;
+    margin-top: 250px;
+    text-align: center;
+    color: var(--Dark-Grayish-Blue); 
+    width: bold;
+ 
+    margin-bottom: 20px;  
+}
+.image{
+    display: block;
+    height: 600px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ima{
+    height: 35px;
+    width: 40px;
+    margin-left: 290px;
+}
+h3{
+    color: var(--Dark-Grayish-Blue);
+    margin-left: 230px;
+    margin-top: 30px;
+
+}
+.h33{
+   display: flex;
+  text-align: center;
+   margin-left: 560px;
+   margin-top: -25px;
+
+}
+.h34{
+    display: flex;
+    text-align: center;
+     margin-left: 900px;
+     margin-top: -25px;
+  
+}
+.p13{
+    width: 300px;
+ margin-left: 140px;   
+margin-top: 20px;
+ text-align: center;
+
+
+font-size: 14px;
+}
+.p14{
+    width: 300px;
+    margin-left: 500px;   
+ margin-top: -85px;
+text-align: center;
+   font-size: 14px;
+   }
+   .p15{
+    width: 300px;
+    margin-left: 800px;   
+ margin-top: -68px;
+text-align: center;
+   font-size: 14px;
+   }
+   .logo img{
+    font-size: xx-small;
+    background-color: transparent;
+    position: absolute;
+    top: 2580px;
+    height: 35px;
+    width: 100px;
+   }
+   .ibm{
+   
+    left: 28%;
+   }
+   .google{
+   
+    left: 12%;
+  
+   
+   }
+   .microsoft{
+   
+    left: 43%;
+  
+   }
+   .hp{
+   
+    left: 60%;
+
+   }
+   .vector{
+   
+    left: 75%;
+   }
+   .h32{
+    font-size: 28px;
+    margin-top: 350px;
+    text-align: center;
+    color: var(--Dark-Grayish-Blue); 
+    width: bold;
+    margin-left: -20px;
+    
+   }
+   .footer{
+    position: sticky;
+    background-color: rgb(224, 223, 223);
+top: 3100px;
+    display:grid;
+    grid-template-columns: 200px 200px 200px 200px 1fr;
+  margin-top: 150px;
+height: 120px;
+width: 1440px;
+}
+.logo-c .c{
+    height: 50px;
+    width: 50px;
+   
+    margin-left: 200px;
+    margin-top: 37px;
+
+}
+.colmun1{
+    display: grid;
+   
+    margin-left: 90px;   
+    margin-top: 20px;
+     text-align:left;
+    cursor: pointer;
+   
+}
+
+.colmun2{
+
+    display: grid;
+    margin-top: 65px;
+    margin-left: -400px;
+   line-height: 100px;
+
+}
+.column3{
+    display: grid;
+   
+    margin-left: -100px;
+}
+.colmun4{
+    
+    display: flex;
+    flex-direction: row;
+  justify-content: flex-end;
+  margin-left: 20px;
+   padding-top: 50%;
+}
+.colmun4{
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+padding-top: 50px;
+}
+.facebook{
+    width: 30px;
+    margin-left: 300px;
+    height: auto;
+    padding-top: 50px;
+    margin-right: 10px;
+}
+.twitter{
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+.instgram{
+ height: auto;
+    width: 30px;
+}
