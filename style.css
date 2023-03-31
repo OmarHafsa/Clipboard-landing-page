@@ -45,7 +45,7 @@ h2{
   margin-bottom: 13px;
   width: bold;
 }
-.iimm{
+.c-logo{
  font-size: xx-small;
     background-color: transparent;
     position: absolute;
@@ -93,7 +93,7 @@ p{
     font-size: large;
     border: none;
     border-radius: 20px;
-    background-color: rgb(166, 69, 211);
+    background-color: rgb(117, 74, 218);
     color: white;
     margin-left: 9px;
     font-size: 15px;
@@ -166,7 +166,7 @@ margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
 }
-.ima{
+.icon{
     height: 35px;
     width: 40px;
     margin-left: 290px;
@@ -327,3 +327,4 @@ padding-top: 50px;
  height: auto;
     width: 30px;
 }
+
