@@ -93,7 +93,7 @@ p{
     font-size: large;
     border: none;
     border-radius: 20px;
-    background-color: rgb(117, 74, 218);
+    background-color: var(--Light-Blue);
     color: white;
     margin-left: 9px;
     font-size: 15px;
